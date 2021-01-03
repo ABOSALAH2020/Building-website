@@ -1,0 +1,6 @@
+baseURL = "https://abdelrahman_salah.gitlab.io/"
+languageCode = "en-us"
+title = "AboSalah"
+theme = "hugo-geekdoc"
+
+
