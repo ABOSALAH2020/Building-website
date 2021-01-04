@@ -1,5 +1,5 @@
 ---
-baseURL: https://gitlab.com/abdelrahman_salah1/hugo-website
+baseURL: https://abdelrahman_salah1.gitlab.io/
 title: Geekdocs
 theme: hugo-geekdoc
 pygmentsUseClasses: true
