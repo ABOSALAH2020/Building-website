@@ -12,10 +12,17 @@ weight: -10
 <!-- spellchecker-enable -->
 
 ### Install sourcetree
+
+
 ● Install sourcetree (git gui for windows). https://www.sourcetreeapp.com/
 [![Example file-tree menu](/media/sourceTree.png)](/media/sourceTree.png)
 
+
+
+
 ### Use sourcetree
+
+
 Use sourcetree (Tools->launch ssh agent) to create ssh key
 1. To generate an SSH Key, select Tools > Create or Import SSH Keys. This window should pop up:
 [![Example file-tree menu](/media/ssh1.png)](/media/ssh1.png)
@@ -35,7 +42,11 @@ SourceTree might prompt you to load the private key. Simply load the .ppk file.
 5. Add your public key in your remote server (eg. Bitbucket).
 [![Example file-tree menu](/media/ssh4.png)](/media/ssh4.png)
 
+
+
 ### Add the ssh key
+
+
 To set up your SSH key, perform the following steps.
 
 
