@@ -1,6 +1,6 @@
 ---
 baseURL: https://abdelrahman_salah1.gitlab.io/
-title: Geekdocs
+title: AboSalah
 theme: hugo-geekdoc
 pygmentsUseClasses: true
 pygmentsCodeFences: true
