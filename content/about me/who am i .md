@@ -21,8 +21,8 @@ who am I ?
 
 
 {{< expand "Why do I want to join Fab Academy?" "..." >}}
-### fab academy logo
-[![Example file-tree menu](/media/fablab.png)](/media/fablab.png)
+
+
 
 ### 🔴well why not 😅the most importing reason that made me apply in FAB ACADEMY that I need to change the world By spread Maker culture all over the world 
 ### 🟠second reason is that what i love , this is my passion to make things with my hand and try to thing in ways to solve the problems.

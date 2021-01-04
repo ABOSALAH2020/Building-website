@@ -8,3 +8,5 @@ weight: -10
 #### ● Open the project folder on your PC and open config.yaml in notepad
 ● Change baseURL:``` https://ahmad._.saeed.gitlab.io/``` to https://[username].gitlab.io/
 #### ● Stage, Commit, and Push your changes from sourcetree
+### here is a link of the journy i took so far i hope you enjoy watching this vedio 
+https://drive.google.com/file/d/10BIbqWCWYCWbi7ytfl5Rw41YdrU1k-kz/view?usp=sharing

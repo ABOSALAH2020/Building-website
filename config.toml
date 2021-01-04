@@ -1,6 +1,0 @@
-baseURL = "https://gitlab.com/abdelrahman_salah1/hugo-website"
-languageCode = "en-us"
-title = "AboSalah"
-theme = "hugo-geekdoc"
-
-

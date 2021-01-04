@@ -2,27 +2,21 @@
 title: 3.Cloning your project
 weight: -10
 ---
-#### In order to make edits on your website, you have to make a clone on your PC. To do so you will
-#### need a software called sourcetree which is a gui tool for git. We will use sourcetree to make a
-#### clone of your website, commit and push the changes to gitlab. Please follow the following steps
-#### to setup sourcetree and configure it with your gitlab account.
+ In order to make edits on your website, you have to make a clone on your PC. To do so you will
+ need a software called sourcetree which is a gui tool for git. We will use sourcetree to make a
+ clone of your website, commit and push the changes to gitlab. Please follow the following steps
+ to setup sourcetree and configure it with your gitlab account.
+
 
 <!-- spellchecker-disable -->
 {{< toc >}}
 <!-- spellchecker-enable -->
 
 ### Install sourcetree
-
-
 ● Install sourcetree (git gui for windows). https://www.sourcetreeapp.com/
 [![Example file-tree menu](/media/sourceTree.png)](/media/sourceTree.png)
 
-
-
-
 ### Use sourcetree
-
-
 Use sourcetree (Tools->launch ssh agent) to create ssh key
 1. To generate an SSH Key, select Tools > Create or Import SSH Keys. This window should pop up:
 [![Example file-tree menu](/media/ssh1.png)](/media/ssh1.png)
@@ -42,11 +36,7 @@ SourceTree might prompt you to load the private key. Simply load the .ppk file.
 5. Add your public key in your remote server (eg. Bitbucket).
 [![Example file-tree menu](/media/ssh4.png)](/media/ssh4.png)
 
-
-
 ### Add the ssh key
-
-
 To set up your SSH key, perform the following steps.
 
 
