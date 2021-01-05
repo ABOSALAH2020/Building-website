@@ -1,6 +1,15 @@
+---
+title: color Theme
+weight: -19
+---
+
 If you want to customize the color scheme of the theme to give it your individual touch you are just a few lines CSS away. In general, you have to override the defaults, the easiest way to do so is to create a `static/custom.css` file right in your site root.
 
 All necessary class names are listed below. If you miss some classes required for a color scheme you are very welcome to create an [Issue](https://github.com/thegeeklab/hugo-geekdoc/issues) or Pull Request. For some inspiration you can have a look at [https://www.color-hex.com/color-palettes/](https://www.color-hex.com/). The following listing use the _HC-primary_ color palette as an example:
+
+so what you have to do is to know which color do you prefere, you can use the upper link to know color codes
+
+[![HC-primary Color Scheme](/media/2-ctc.png)](/media/2-ctc.png)
 
 <!-- markdownlint-disable -->
 <!-- spellchecker-disable -->
@@ -39,6 +48,20 @@ a:visited { color: #73bfb8 }
 <!-- spellchecker-enable -->
 <!-- markdownlint-enable -->
 
-And that is how the result will looks like. Happy customizing!
+More
+ Documentation / Shortcodes / Hints
+ Edit this page
+Hints
+Hint shortcode can be used as hint/alerts/notification block. There are four colors to choose: info, ok, warning and danger.
 
-[![HC-primary Color Scheme](/media/colorscheme-example.png)](/media/colorscheme-example.png)
+{{< hint warning>}}
+**You should know**\
+you can find the file under the name of [custom.css] in the static file 
+
+[![HC-primary Color Scheme](/media/4-ctc.png)](/media/4-ctc.png)
+{{< /hint >}}
+
+and the result was amazing 
+
+
+[![HC-primary Color Scheme](/media/5-ctc.png)](/media/5-ctc.png)
