@@ -2,6 +2,8 @@
 title: color Theme
 weight: -19
 ---
+[![HC-primary Color Scheme](/media/ET.jpeg)](/media/2-ctc.png)
+
 
 If you want to customize the color scheme of the theme to give it your individual touch you are just a few lines CSS away. In general, you have to override the defaults, the easiest way to do so is to create a `static/custom.css` file right in your site root.
 

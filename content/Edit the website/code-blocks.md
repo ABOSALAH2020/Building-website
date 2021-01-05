@@ -1,95 +1,44 @@
-There are multiple ways to add code blocks. Most of them works out of the box only the Hugo shortcode `<highlight>` need some configuration to work properly.
+---
+title: faults & Errors
+weight: 10
+---
+ in this part of page I will bring to you all the Errors I have faced and how To solve them If you faced any problem of them
 
 <!-- spellchecker-disable -->
-
 {{< toc >}}
-
 <!-- spellchecker-enable -->
 
-## Inline code
+### .git Error
 
-To display an inline shortcode use single quotes:
+you should make sure that you have .git file in your website files 
+an easy way to handle this , is to copy .git file from my repository 
+```https://gitlab.com/abdelrahman_salah1/abdelrahman_salah1.gitlab.io```
+and paste it in your files 
+[![Example file-tree menu](/media/1-error.png)](/media/1-error.png)
 
-```plain
-`some code`
-```
+### Photo doesn't appear 
 
-**Example:** `some code`
+in some cases the photo disappearance because you work locally onyour computer the best way to solve it is to rebuild the website from Prompt , But there is other cases is not from local website
 
-## Code blocks
+however, it would be one of two 
+1-you write the syntax of the code wrong 
+[![Example file-tree menu](/media/2-error.png)](/media/2-error.png)
 
-Code blocks can be uses without language specification:
+the best way to solve it is to write the correct syntax 
+```[![Example file-tree menu](/media/1-error.png)](/media/1-error.png)```
 
-````markdown
-```
-some code
-```
-````
+2-you didn't put the photos in the correct path 
+[![Example file-tree menu](/media/3-error.png)](/media/3-error.png)
 
-**Example:**
+to solve it you should put the photos in ``` static\media```
+[![Example file-tree menu](/media/4-error.png)](/media/4-error.png)
 
-```plain
-some code
-```
+### the page crash when i Put the theme
 
-... or if you need language specific syntax highlighting:
+In this particular Error you 100% wrote the syntax of attatching theme wrong 
+[![HC-primary Color Scheme](/media/5-error.png)](/media/5-error.png)
 
-````markdown
-```Shell
-# some code
-echo "Hello world"
-```
-````
+### you should know 
 
-**Example:**
-
-```Shell
-# some code
-echo "Hello World"
-```
-
-## Highlight shortcode
-
-Hugo has a build-in shortcode for syntax highlighting. To work properly with this theme, you have to set following options in your site configuration:
-
-{{< tabs "uniqueid" >}}
-{{< tab "TOML" >}}
-
-```TOML
-pygmentsUseClasses=true
-pygmentsCodeFences=true
-```
-
-{{< /tab >}}
-{{< tab "YAML" >}}
-
-```YAML
-pygmentsUseClasses: true
-pygmentsCodeFences: true
-```
-
-{{< /tab >}}
-{{< /tabs >}}
-
-You can use it like every other shortcode:
-
-<!-- prettier-ignore -->
-```markdown
-{{</* highlight Shell "linenos=table" */>}}
-# some code
-echo "Hello World"
-{{</* /highlight */>}}
-```
-
-**Example:**
-
-<!-- markdownlint-disable -->
-
-<!-- prettier-ignore-start -->
-{{< highlight Shell "linenos=table" >}}
-# some code
-echo "Hello World"
-{{< /highlight >}}
-<!-- prettier-ignore-end-->
-
-<!-- markdownlint-enable -->
+if you wrote the syntac of code wrong and the syntax was complicated the website will crash
+[![HC-primary Color Scheme](/media/6-error.png)](/media/6-Error.png)
