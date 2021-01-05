@@ -2,13 +2,13 @@
 title: setup your website locally
 weight: -14
 ---
-#### we will go through steps some I will explain in details  and Some I will leave you Documentaion to understand from it 
+#### we will go through steps some I will explain in details  and Some I will leave you Documentation to understand from it 
 
 ### 1- install Hugo 
--to begin you should install Hugo you shoulf see this totourial at frist before you continue with me 
+-to begin you should install Hugo you should see this tutorial at first before you continue with me 
 https://gohugo.io/getting-started/installing/
 
-- choose the best download way you prefere 
+- choose the best download way you prefer 
 
 - choose the latest version of Hugo
 
@@ -21,9 +21,9 @@ https://gohugo.io/getting-started/installing/
 {{< /columns >}}
 
 ### 3- prepare your environment 
-- to prepare your environment you should see the link that I mentioned up but any wayI will explain 
+- to prepare your environment you should see the link that I mentioned up but anyway I will explain 
 
-- open windows start menue > search on "Edit the system environment Variables"
+- open windows start menu > search on "Edit the system environment Variables"
 
 {{< columns >}} <!-- begin columns block -->
 [![Example file-tree menu](/media/5-wowl.png)](/media/5-wowl.png)
@@ -50,11 +50,11 @@ https://gohugo.io/getting-started/installing/
 
 {{< hint info >}}
 **note**\
-you should build a folder in C called "hugo" and another one in it called "bin"
-and uncompress the Hugo files if you downloaded like i Did
+you should build a folder in C called "Hugo" and another one in it called "bin"
+and uncompress the Hugo files if you downloaded as I Did
 {{< /hint >}}
 
-### 4- Follow the fowllowing totourial 
+### 4- Follow the following tutorial
 https://gohugo.io/getting-started/quick-start/
 
 {{< columns >}} <!-- begin columns block -->
@@ -105,7 +105,7 @@ prompt and type the following code ```cd (name of the folder)```
 {{< /columns >}}
 
 - then you can build your website now on your computer by the following
-command on prompt ```hugo server -D```
+command on prompt ```Hugo server -D```
 {{< columns >}} <!-- begin columns block -->
 [![Example file-tree menu](/media/16-wowl.png)](/media/16-wowl.png)
 <---> <!-- magic sparator, between columns -->
