@@ -1,6 +1,6 @@
 ---
-title: 3.Cloning your project
-weight: -10
+title: 2.Cloning your project
+weight: 10
 ---
  In order to make edits on your website, you have to make a clone on your PC. To do so you will
  need a software called sourcetree which is a gui tool for git. We will use sourcetree to make a
@@ -14,27 +14,51 @@ weight: -10
 
 ### Install sourcetree
 ● Install sourcetree (git gui for windows). https://www.sourcetreeapp.com/
+{{< columns >}} <!-- begin columns block -->
 [![Example file-tree menu](/media/sourceTree.png)](/media/sourceTree.png)
+<---> <!-- magic sparator, between columns -->
+{{< /columns >}}
+
 
 ### Use sourcetree
 Use sourcetree (Tools->launch ssh agent) to create ssh key
 1. To generate an SSH Key, select Tools > Create or Import SSH Keys. This window should pop up:
+{{< columns >}} <!-- begin columns block -->
 [![Example file-tree menu](/media/ssh1.png)](/media/ssh1.png)
+<---> <!-- magic sparator, between columns -->
+{{< /columns >}}
+
+
 
 2. Click Generate, and move the mouse randomly until a key is generated:
+{{< columns >}} <!-- begin columns block -->
 [![Example file-tree menu](/media/ssh2.png)](/media/ssh2.png)
+<---> <!-- magic sparator, between columns -->
+{{< /columns >}}
+
 
 3. A public key and a private key should appear. Save them both by clicking Save public key (save as .pub filetype),
 and Save private key (save as .ppk filetype):
-
+{{< columns >}} <!-- begin columns block -->
 [![Example file-tree menu](/media/ssh3.png)](/media/ssh3.png)
+<---> <!-- magic sparator, between columns -->
+{{< /columns >}}
+
 
 4. This is how the .pub and the .ppk files should appear in your .ssh folder, along side with some other files:
+{{< columns >}} <!-- begin columns block -->
 [![Example file-tree menu](/media/ssh5.png)](/media/ssh5.png)
+<---> <!-- magic sparator, between columns -->
+{{< /columns >}}
+
 SourceTree might prompt you to load the private key. Simply load the .ppk file.
 
 5. Add your public key in your remote server (eg. Bitbucket).
+{{< columns >}} <!-- begin columns block -->
 [![Example file-tree menu](/media/ssh4.png)](/media/ssh4.png)
+<---> <!-- magic sparator, between columns -->
+{{< /columns >}}
+
 
 ### Add the ssh key
 To set up your SSH key, perform the following steps.

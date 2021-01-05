@@ -1,6 +1,6 @@
 ---
-title: 4.Publish your project
-weight: -10
+title: 3.Publish your project
+weight: 10
 ---
 ### The following steps will help you to publish your website so you can access it using a domain.
 #### ● In the gitlab account, go to your project's Settings -> General -> Advanced and

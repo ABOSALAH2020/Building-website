@@ -1,6 +1,6 @@
 ---
-title: 2.Creating your first project
-weight: -10
+title: 1.Creating your first project
+weight: 10
 ---
 {{< expand "The first step is creating a gitlab account" "..." >}}
 You can create a gitlab account by going to https://gitlab.com/ and sign up. Don’t forget
