@@ -5,12 +5,9 @@ weight: -20
 
 ### What we need to Make this PCB ?<coulmn>
 
-{{< columns >}}
 
-[![Example bundle menu](/media/PCB1.png)](/media/PCB1.png)
+[![Example bundle menu](/media/PCB1.jpeg)](/media/PCB1.jpeg)
 
-<--->
-{{< /columns >}}
 
 #### Softwares
 
@@ -40,4 +37,12 @@ weight: -20
 #### Soldering stuff
 - Soldering iron.
 - Solder.
--	 flux.
+- flux.
+
+#### For Machine 
+
+- Setting up the copper board.
+- Fixing the copper board to a wood sacrificial layer.
+-  1/64” endmill with 1/32” endmill.
+
+
