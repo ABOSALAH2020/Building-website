@@ -11,7 +11,7 @@ weight: -20
 [![Example bundle menu](/media/PCBT.png)](/media/PCBT.png)
 
 #### You can download schematic and board by clicking to the following link
-```https://drive.google.com/file/d/18nyEpe13ismjr6TJK1zsHUWyL0hl28cD/view?usp=sharing```
+[DOWNLOAD HERE](https://drive.google.com/file/d/18nyEpe13ismjr6TJK1zsHUWyL0hl28cD/view?usp=sharing)
 
 ## STEPS
 

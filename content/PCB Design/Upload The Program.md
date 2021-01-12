@@ -2,19 +2,20 @@
 title: Upload the Program
 weight: -7
 ---
+[![Example bundle menu](/media/ArduinoLogo.png)](/media/ArduinoLogo.png)
 ### Now that you have a finished board in your hand we are going to upload a code into the embedded microcontroller that will manipulate the LEDs array and display patterns on them. 
 ### To complete this task, you will need to download the latest version of Arduino IDE from theirwebsite, FTDI cable, your board and a programmer. 
 ### In our case we will use ATMEL ICE programmer along with the FTDI to USB converters available in the Lab.
  
 ### Luckly You wouldn't Write the Code By your self, I will give you the code 
-```https://drive.google.com/file/d/1NvWuHSVEFNakQHMrkzQmeVt3Iz50cATd/view?usp=sharing```
+[Downlaod the Code](https://drive.google.com/file/d/1NvWuHSVEFNakQHMrkzQmeVt3Iz50cATd/view?usp=sharing)
 ____________________________________
 #### Download the latest Arduino IDE from their website 
-```https://www.arduino.cc/en/software.```
+[Arduino Download](https://www.arduino.cc/en/software)
 #### Arduino IDE naturally doesn’t support the microcontroller we are using in the board, so you
 #### should add support for our microcontroller ATtiny45. The first step is to add a link to the support package by going to file->preferences->Additional Boards Manager URLs then paste the
 ### following link :
-```https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json```
+https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
 
 
 [![Example bundle menu](/media/UTP1.png)](/media/UTP1.png)

@@ -38,14 +38,14 @@ __________________________________
 
 For setting up the machine, we would recommend that you watch these videos:
 
-```https://www.youtube.com/watch?v=XdamEhs2RIk&list=PL-xEsC0ZUCUM42QNHaOOdoOwYg0j251dU&index=1```
+[MACHINE VIDEO ](https://www.youtube.com/watch?v=XdamEhs2RIk&list=PL-xEsC0ZUCUM42QNHaOOdoOwYg0j251dU&index=1)
 
 
 Regarding using Fab modules, you would need to learn how to start the local fab modules
 server on the PC. You may ask the lab supervisor on how to do that. To generate the toolpath
 and send it to the machine, you should follow this video :
 
-```https://www.youtube.com/watch?v=mySjdHuCHJE```
+[FAB MODULES VIDEO](https://www.youtube.com/watch?v=mySjdHuCHJE)
 
 {{< hint >}}
 **There are some corrections to the videos**
